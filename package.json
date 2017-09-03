@@ -7,11 +7,11 @@
     "start": "webpack-dev-server --open"
   },
   "babel": {
-  "presets": [
-    "env",
-    "react"
-  ]
-},
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sri1214/React-Youtube.git"
@@ -24,7 +24,8 @@
   "homepage": "https://github.com/sri1214/React-Youtube#readme",
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "youtube-api-search": "0.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
